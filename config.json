@@ -1,0 +1,22 @@
+[
+    {
+        "id": "e9be9203.16417",
+        "type": "elasticsearch server",
+        "host": "http://172.17.12.101:7000",
+        "name": "elasticsearch"
+    },
+    {
+        "id": "70ca84be.8f357c",
+        "type": "mqtt-broker",
+        "broker": "172.17.42.1",
+        "port": "1883",
+        "clientid": "app"
+    },
+    {
+        "id": "38d6477d.c729b8",
+        "type": "rabbitmq server",
+        "host": "172.17.12.101",
+        "port": "5672",
+        "configKey": ""
+    }
+]
